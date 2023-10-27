@@ -1,97 +1,48 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Quantum Computing
+      institution: National University of Singapore, Singapore
+      year: 2023/09 - present
+      description: "Supervisor : Dr. Patrick Rebenstrost"
+    - title: M.Sc. in Computer Science
+      institution: University of Calgary, Calgary, Canada
+      year: 2019/09 - 2021/09
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Thesis: Quantum walks on arc-transitive graphs with self-loops"
+        - "Supervisor : Dr. Peter Høyer"
+    - title: B.Sc. in Computer Science
+      institution: University of Calgary, Calgary, Canada
+      year: 2016/09 - 2019/08
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: Efficient quantum walk on the grid using self-loops"
+        - "Supervisor : Dr. Peter Høyer"
+    - title: B.Eng. in Software Engineering
+      institution: Wuhan University of Technology, Wuhan, Hubei 
+      year: 2014/09 - 2016/06
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Student
+      institution: Wuhan University, Wuhan, Hubei
+      year: 2023/05 - 2023/08
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Host by: Dr. Yinan Li"
+        - "Conduct research projects in quantum algorithms and quantum machine learning, focusing on the expressive power and generalization of quantum machine learning models."
+
+    - title: Research & Development Intern
+      institution: Institute for Quantum Computing, Baidu Research, Beijing
+      year: 2021/11 - 2023/05
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Mentor: Dr. Xin Wang"
+        - Conducted various research projects in quantum algorithms, quantum information, and quantum machine learning, which lead to top-tier publications and over 20 patents. Discovered the expressivity of quantum neural networks and further extended the model to the multi-qubit quantum phase processing framework, which leads to intuitive and efficient quantum algorithms for solving problems that are particularly phase-related.
+        - Involved in developing the Paddle Quantum and Quantum Leaf platform, which allow users to design, test, and deploy quantum programs on quantum simulators and real quantum computers through cloud services. Developed the variable ansatz module, quantum singular value transformation module, quantum phase processing module and the corresponding tutorials.
+    - title: Teaching Assistant
+      institution: Department of Computer Science, University of Calgary
+      year: 2019/09 - 2021/05
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - DATA 211 - Programming with Data
+        - CPSC 217 - Introduction to Computer Science for Multidisciplinary Studies I
+        - CPSC 231 - Introduction to Computer Science for Computer Science Majors I
+        - CPSC 519/619 - Introduction to Quantum Computation
