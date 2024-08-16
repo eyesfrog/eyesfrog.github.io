@@ -1,3 +1,22 @@
+@misc{guo2024quantum,
+  title = {Quantum Linear Algebra Is All You Need for {{Transformer}} Architectures},
+  author = {Guo, Naixu and Yu, Zhan and Choi, Matthew and Agrawal, Aman and Nakaji, Kouhei and {Aspuru-Guzik}, Al{\'a}n and Rebentrost, Patrick},
+  year = {2024},
+  month = may,
+  number = {arXiv:2402.16714},
+  eprint = {2402.16714},
+  arXiv = {2402.16714},
+  primaryclass = {quant-ph},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2402.16714},
+  url = {http://arxiv.org/abs/2402.16714},
+  archiveprefix = {arXiv},
+  bibtex_show = {true},
+  selected = {true},
+  abstract = {Generative machine learning methods such as large-language models are revolutionizing the creation of text and images. While these models are powerful they also harness a large amount of computational resources. The transformer is a key component in large language models that aims to generate a suitable completion of a given partial sequence. In this work, we investigate transformer architectures under the lens of fault-tolerant quantum computing. The input model is one where pre-trained weight matrices are given as block encodings to construct the query, key, and value matrices for the transformer. As a first step, we show how to prepare a block encoding of the self-attention matrix, with a row-wise application of the softmax function using the Hadamard product. In addition, we combine quantum subroutines to construct important building blocks in the transformer, the residual connection, layer normalization, and the feed-forward neural network. Our subroutines prepare an amplitude encoding of the transformer output, which can be measured to obtain a prediction. We discuss the potential and challenges for obtaining a quantum advantage.}
+}
+
+
 @misc{chen2023efficient,
   title = {Efficient Information Recovery from {{Pauli}} Noise via Classical Shadow},
   abstract = {The rapid advancement of quantum computing has led to an extensive demand for effective techniques to extract classical information from quantum systems, particularly in fields like quantum machine learning and quantum chemistry. However, quantum systems are inherently susceptible to noises, which adversely corrupt the information encoded in quantum systems. In this work, we introduce an efficient algorithm that can recover information from quantum states under Pauli noise. The core idea is to learn the necessary information of the unknown Pauli channel by post-processing the classical shadows of the channel. For a local and bounded-degree observable, only partial knowledge of the channel is required rather than its complete classical description to recover the ideal information, resulting in a polynomial-time algorithm. This contrasts with conventional methods such as probabilistic error cancellation, which requires the full information of the channel and exhibits exponential scaling with the number of qubits. We also prove that this scalable method is optimal on the sample complexity and generalise the algorithm to the weight contracting channel. Furthermore, we demonstrate the validity of the algorithm on the 1D anisotropic Heisenberg-type model via numerical simulations. As a notable application, our method can be severed as a sample-efficient error mitigation scheme for Clifford circuits.},
@@ -34,17 +53,19 @@
   abstract = {The lackadaisical quantum walk is a quantum analogue of the lazy random walk obtained by adding a self-loop to each vertex in the graph. We analytically prove that lackadaisical quantum walks can find a unique marked vertex on any regular locally arc-transitive graph with constant success probability quadratically faster than the hitting time. This result proves several speculations and numerical findings in previous work, including the conjectures that the lackadaisical quantum walk finds a unique marked vertex with constant success probability on the torus, cycle, Johnson graphs, and other classes of vertex-transitive graphs. Our proof establishes and uses a relationship between lackadaisical quantum walks and quantum interpolated walks for any locally arc-transitive graph.}
 }
 
-@misc{wang2022quantum,
-  title = {Quantum {{Phase Processing}} and Its {{Applications}} in {{Estimating Phase}} and {{Entropies}}},
+@article{wang2023quantum,
+  title = {Quantum Phase Processing and Its Applications in Estimating Phase and Entropies},
   author = {Wang, Youle and Zhang, Lei and Yu, Zhan and Wang, Xin},
-  year = {2022},
-  month = sep,
-  number = {arXiv:2209.14278},
-  eprint = {2209.14278},
+  year = {2023},
+  month = dec,
+  journal = {Physical Review A},
+  volume = {108},
+  number = {6},
+  pages = {062413},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.108.062413},
   arxiv = {2209.14278},
-  primaryclass = {math-ph, physics:quant-ph},
-  publisher = {{arXiv}},
-  url = {http://arxiv.org/abs/2209.14278},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.108.062413},
   bibtex_show = {true},
   selected = {true},
   abstract = {Quantum computing can provide speedups in solving many problems as the evolution of a quantum system is described by a unitary operator in an exponentially large Hilbert space. Such unitary operators change the phase of their eigenstates and make quantum algorithms fundamentally different from their classical counterparts. Based on this unique principle of quantum computing, we develop a new algorithmic toolbox ``quantum phase processing'' that can directly apply arbitrary trigonometric transformations to eigenphases of a unitary operator. The quantum phase processing circuit is constructed simply, consisting of single-qubit rotations and controlled-unitaries, typically using only one ancilla qubit. Besides the capability of phase transformation, quantum phase processing in particular can extract the eigen-information of quantum systems by simply measuring the ancilla qubit, making it naturally compatible with indirect measurement. Quantum phase processing complements another powerful framework known as quantum singular value transformation and leads to more intuitive and efficient quantum algorithms for solving problems that are particularly phase-related. As a notable application, we propose a new quantum phase estimation algorithm without quantum Fourier transform, which requires the fewest ancilla qubits and matches the best performance so far. We further exploit the power of our method by investigating a plethora of applications in Hamiltonian simulation, entanglement spectroscopy and quantum entropies estimation, demonstrating improvements or optimality for almost all cases.},
@@ -101,3 +122,5 @@
   selected = {true},
   abstract = {Understanding the power of parameterized quantum circuits (PQCs) in accomplishing machine learning tasks is one of the most important questions in quantum machine learning. In this paper, we analyze the expressivity of PQCs through the lens of function approximation. Previously established universal approximation theorems for PQCs are mainly nonconstructive, leading us to the following question: How large do the PQCs need to be to approximate the target function up to a given error? We exhibit explicit constructions of data re-uploading PQCs for approximating continuous and smooth functions and establish quantitative approximation error bounds in terms of the width, the depth and the number of trainable parameters of the PQCs. To achieve this, we utilize techniques from quantum signal processing and linear combinations of unitaries to construct PQCs that implement multivariate polynomials. We implement global and local approximation techniques using Bernstein polynomials and local Taylor expansion and analyze their performances in the quantum setting. We also compare our proposed PQCs to nearly optimal deep neural networks in approximating high-dimensional smooth functions, showing that the ratio between model sizes of PQC and deep neural networks is exponentially small with respect to the input dimension. This suggests a potentially novel avenue for showcasing quantum advantages in quantum machine learning.}
 }
+
+
