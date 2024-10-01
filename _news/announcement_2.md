@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our new paper "[Quantum linear algebra is all you need for Transformer architectures](https://arxiv.org/abs/2402.16714)" has been posted on arXiv.
+Our new paper "[Provable Advantage of Parameterized Quantum Circuit in Function Approximation](http://arxiv.org/abs/2310.07528)" has been posted on arXiv.
