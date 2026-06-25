@@ -1,17 +1,18 @@
-@book{du2025gentle,
+@book{DWG+25,
   title = {A Gentle Introduction to Quantum Machine Learning},
   author = {Du, Yuxuan and Wang, Xinbiao and Guo, Naixu and Yu, Zhan and Qian, Yang and Zhang, Kaining and Hsieh, Min-Hsiu and Rebentrost, Patrick and Tao, Dacheng},
   year = {2025},
   publisher = {Springer Nature Singapore},
   doi = {10.1007/978-981-95-1284-3},
   isbn = {978-981-95-1283-6},
+  arxiv = {2502.01146},
   url = {https://link.springer.com/book/10.1007/978-981-95-1284-3},
   html = {https://link.springer.com/book/10.1007/978-981-95-1284-3},
   bibtex_show = {true},
   selected = {true}
 }
 
-@article{chen2026simultaneous,
+@article{CWYZ26,
   title = {Simultaneous Estimation of Nonlinear Functionals of a Quantum State},
   author = {Chen, Kean and Wang, Qisheng and Yu, Zhan and Zhang, Zhicheng},
   year = {2026},
@@ -27,7 +28,7 @@
   note = {Accepted as a regular talk at AQIS 2025.}
 }
 
-@misc{arad2026near,
+@misc{ACG+26,
   title = {Near-Optimal Learning of Local Lindbladians},
   author = {Arad, Itai and Chen, Zhili and Guo, Naixu and Rebentrost, Patrick and Yu, Zhan},
   year = {2026},
@@ -40,16 +41,20 @@
   bibtex_show = {true}
 }
 
-@misc{zhu2024amortized,
+@misc{ZCS+24,
   title = {Amortized {{Stabilizer R{\'e}nyi Entropy}} of {{Quantum Dynamics}}},
   author = {Zhu, Chengkai and Chen, Yu-Ao and Shen, Zanqiu and Liu, Zhiping and Yu, Zhan and Wang, Xin},
   year = {2024},
   month = sep,
-  journal = {arXiv.org},
-  url = {https://arxiv.org/abs/2409.06659v1}
+  eprint = {2409.06659},
+  arxiv = {2409.06659},
+  primaryclass = {quant-ph},
+  publisher = {arXiv},
+  url = {https://arxiv.org/abs/2409.06659},
+  bibtex_show = {true}
 }
 
-@misc{guo2024quantum,
+@misc{GYC+24,
   title = {Quantum Linear Algebra Is All You Need for {{Transformer}} Architectures},
   author = {Guo, Naixu and Yu, Zhan and Choi, Matthew and Agrawal, Aman and Nakaji, Kouhei and {Aspuru-Guzik}, Al{\'a}n and Rebentrost, Patrick},
   year = {2024},
@@ -68,7 +73,7 @@
 }
 
 
-@misc{chen2023efficient,
+@misc{CYZW23,
   title = {Efficient Information Recovery from {{Pauli}} Noise via Classical Shadow},
   abstract = {The rapid advancement of quantum computing has led to an extensive demand for effective techniques to extract classical information from quantum systems, particularly in fields like quantum machine learning and quantum chemistry. However, quantum systems are inherently susceptible to noises, which adversely corrupt the information encoded in quantum systems. In this work, we introduce an efficient algorithm that can recover information from quantum states under Pauli noise. The core idea is to learn the necessary information of the unknown Pauli channel by post-processing the classical shadows of the channel. For a local and bounded-degree observable, only partial knowledge of the channel is required rather than its complete classical description to recover the ideal information, resulting in a polynomial-time algorithm. This contrasts with conventional methods such as probabilistic error cancellation, which requires the full information of the channel and exhibits exponential scaling with the number of qubits. We also prove that this scalable method is optimal on the sample complexity and generalise the algorithm to the weight contracting channel. Furthermore, we demonstrate the validity of the algorithm on the 1D anisotropic Heisenberg-type model via numerical simulations. As a notable application, our method can be severed as a sample-efficient error mitigation scheme for Clifford circuits.},
   author = {Chen, Yifei and Yu, Zhan and Zhu, Chenghong and Wang, Xin},
@@ -85,7 +90,7 @@
   bibtex_show = {true}
 }
 
-@article{hoyer2020analysis,
+@article{HY20,
   title = {Analysis of {{Lackadaisical Quantum Walks}}},
   author = {H{\o}yer, Peter and Yu, Zhan},
   year = {2020},
@@ -104,7 +109,7 @@
   abstract = {The lackadaisical quantum walk is a quantum analogue of the lazy random walk obtained by adding a self-loop to each vertex in the graph. We analytically prove that lackadaisical quantum walks can find a unique marked vertex on any regular locally arc-transitive graph with constant success probability quadratically faster than the hitting time. This result proves several speculations and numerical findings in previous work, including the conjectures that the lackadaisical quantum walk finds a unique marked vertex with constant success probability on the torus, cycle, Johnson graphs, and other classes of vertex-transitive graphs. Our proof establishes and uses a relationship between lackadaisical quantum walks and quantum interpolated walks for any locally arc-transitive graph.}
 }
 
-@article{wang2023quantum,
+@article{WZYW23,
   title = {Quantum Phase Processing and Its Applications in Estimating Phase and Entropies},
   author = {Wang, Youle and Zhang, Lei and Yu, Zhan and Wang, Xin},
   year = {2023},
@@ -122,7 +127,7 @@
   note = {Accepted as a regular talk at AQIS 2023.}
 }
 
-@inproceedings{yu2022power,
+@inproceedings{YYLW22,
   title = {Power and Limitations of Single-Qubit Native Quantum Neural Networks},
   booktitle = {Advances in Neural Information Processing Systems},
   author = {Yu, Zhan and Yao, Hongshun and Li, Mujin and Wang, Xin},
@@ -139,7 +144,7 @@
   abstract = {Quantum neural networks (QNNs) have emerged as a leading strategy to establish applications in machine learning, chemistry, and optimization. While the applications of QNN have been widely investigated, its theoretical foundation remains less understood. In this paper, we formulate a theoretical framework for the expressive ability of data re-uploading quantum neural networks that consist of interleaved encoding circuit blocks and trainable circuit blocks. First, we prove that single-qubit quantum neural networks can approximate any univariate function by mapping the model to a partial Fourier series. Beyond previous works' understanding of existence, we in particular establish the exact correlations between the parameters of the trainable gates and the working Fourier coefficients, by exploring connections to quantum signal processing. Second, we discuss the limitations of single-qubit native QNNs on approximating multivariate functions by analyzing the frequency spectrum and the flexibility of Fourier coefficients. We further demonstrate the expressivity and limitations of single-qubit native QNNs via numerical experiments. As applications, we introduce natural extensions to multi-qubit quantum neural networks, which exhibit the capability of classifying real-world multi-dimensional data. We believe these results would improve our understanding of QNNs and provide a helpful guideline for designing powerful QNNs for machine learning tasks.}
 }
 
-@article{yu2023optimal,
+@article{YZZW23,
   title = {Optimal {{Quantum Dataset}} for {{Learning}} a {{Unitary Transformation}}},
   author = {Yu, Zhan and Zhao, Xuanqiang and Zhao, Benchi and Wang, Xin},
   year = {2023},
@@ -156,7 +161,7 @@
   abstract = {Unitary transformations formulate the time evolution of quantum states. How to learn a unitary transformation efficiently is a fundamental problem in quantum machine learning. The most natural and leading strategy is to train a quantum machine learning model based on a quantum dataset. Although the presence of more training data results in better models, using too much data reduces the efficiency of training. In this work, we solve the problem on the minimum size of sufficient quantum datasets for learning a unitary transformation exactly, which reveals the power and limitation of quantum data. First, we prove that the minimum size of a dataset with pure states is 2n for learning an n-qubit unitary transformation. To fully explore the capability of quantum data, we introduce a practical quantum dataset consisting of n+1 elementary tensor product states that are sufficient for exact training. The main idea is to simplify the structure utilizing decoupling, which leads to an exponential improvement in the size of the datasets with pure states. Furthermore, we show that the size of the quantum dataset with mixed states can be reduced to a constant, which yields an optimal quantum dataset for learning a unitary. We showcase the applications of our results in oracle compiling and Hamiltonian simulation. Notably, to accurately simulate a three-qubit one-dimensional nearest-neighbor Heisenberg model, our circuit only uses 96 elementary quantum gates, which is significantly less than 4080 gates in the circuit constructed by the Trotter-Suzuki product formula.}
 }
 
-@misc{yu2023provable,
+@misc{YCJ+23,
   title = {Provable {{Advantage}} of {{Parameterized Quantum Circuit}} in {{Function Approximation}}},
   author = {Yu, Zhan and Chen, Qiuhao and Jiao, Yuling and Li, Yinan and Lu, Xiliang and Wang, Xin and Yang, Jerry Zhijian},
   year = {2023},
