@@ -1,48 +1,87 @@
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Quantum Computing
-      institution: National University of Singapore, Singapore
-      year: 2023/09 - present
-      description: "Supervisor : Dr. Patrick Rebentrost"
-    - title: M.Sc. in Computer Science
-      institution: University of Calgary, Calgary, Canada
-      year: 2019/09 - 2021/09
-      description:
-        - "Thesis: Quantum walks on arc-transitive graphs with self-loops"
-        - "Supervisor : Dr. Peter Høyer"
-    - title: B.Sc. in Computer Science
-      institution: University of Calgary, Calgary, Canada
-      year: 2016/09 - 2019/08
-      description:
-        - "Thesis: Efficient quantum walk on the grid using self-loops"
-        - "Supervisor : Dr. Peter Høyer"
-    - title: B.Eng. in Software Engineering
-      institution: Wuhan University of Technology, Wuhan, Hubei 
-      year: 2014/09 - 2016/06
+cv:
+  name: Zhan Yu
+  label: Ph.D. Student in Quantum Computing
+  email: yuzh.james@gmail.com
+  location: Singapore
+  image: ""
+  summary: >
+    Ph.D. student at the NUS Centre for Quantum Technologies, working on quantum
+    computing and quantum information with a focus on quantum algorithms and
+    quantum machine learning.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Visiting Student
-      institution: Wuhan University, Wuhan, Hubei
-      year: 2023/05 - 2023/08
-      description:
-        - "Host by: Dr. Yinan Li"
-        - "Conduct research projects in quantum algorithms and quantum machine learning, focusing on the expressive power and generalization of quantum machine learning models."
+  social_networks:
+    - network: GitHub
+      username: eyesfrog
+    - network: LinkedIn
+      username: zhan-yu-b22525a3
+    - network: X
+      username: eyesfrog_yz
 
-    - title: Research & Development Intern
-      institution: Institute for Quantum Computing, Baidu Research, Beijing
-      year: 2021/11 - 2023/05
-      description:
-        - "Mentor: Dr. Xin Wang"
-        - Conducted various research projects in quantum algorithms, quantum information, and quantum machine learning, which lead to top-tier publications and over 20 patents. Discovered the expressivity of quantum neural networks and further extended the model to the multi-qubit quantum phase processing framework, which leads to intuitive and efficient quantum algorithms for solving problems that are particularly phase-related.
-        - Involved in developing the Paddle Quantum and Quantum Leaf platform, which allow users to design, test, and deploy quantum programs on quantum simulators and real quantum computers through cloud services. Developed the variable ansatz module, quantum singular value transformation module, quantum phase processing module and the corresponding tutorials.
-    - title: Teaching Assistant
-      institution: Department of Computer Science, University of Calgary
-      year: 2019/09 - 2021/05
-      description:
-        - DATA 211 - Programming with Data
-        - CPSC 217 - Introduction to Computer Science for Multidisciplinary Studies I
-        - CPSC 231 - Introduction to Computer Science for Computer Science Majors I
-        - CPSC 519/619 - Introduction to Quantum Computation
+  sections:
+    Education:
+      - institution: National University of Singapore
+        location: Singapore
+        area: Quantum Computing
+        studyType: Ph.D.
+        start_date: 2023-09
+        end_date: present
+        highlights:
+          - "Supervisor: Dr. Patrick Rebentrost"
+
+      - institution: University of Calgary
+        location: Calgary, Canada
+        area: Computer Science
+        studyType: M.Sc.
+        start_date: 2019-09
+        end_date: 2021-09
+        highlights:
+          - "Thesis: Quantum walks on arc-transitive graphs with self-loops"
+          - "Supervisor: Dr. Peter Høyer"
+
+      - institution: University of Calgary
+        location: Calgary, Canada
+        area: Computer Science
+        studyType: B.Sc.
+        start_date: 2016-09
+        end_date: 2019-08
+        highlights:
+          - "Thesis: Efficient quantum walk on the grid using self-loops"
+          - "Supervisor: Dr. Peter Høyer"
+
+      - institution: Wuhan University of Technology
+        location: Wuhan, Hubei, China
+        area: Software Engineering
+        studyType: B.Eng.
+        start_date: 2014-09
+        end_date: 2016-06
+
+    Experience:
+      - company: Wuhan University
+        position: Visiting Student
+        location: Wuhan, Hubei, China
+        start_date: 2023-05
+        end_date: 2023-08
+        highlights:
+          - "Host by: Dr. Yinan Li"
+          - "Conduct research projects in quantum algorithms and quantum machine learning, focusing on the expressive power and generalization of quantum machine learning models."
+
+      - company: Institute for Quantum Computing, Baidu Research
+        position: Research & Development Intern
+        location: Beijing, China
+        start_date: 2021-11
+        end_date: 2023-05
+        highlights:
+          - "Mentor: Dr. Xin Wang"
+          - "Conducted various research projects in quantum algorithms, quantum information, and quantum machine learning, which lead to top-tier publications and over 20 patents. Discovered the expressivity of quantum neural networks and further extended the model to the multi-qubit quantum phase processing framework, which leads to intuitive and efficient quantum algorithms for solving problems that are particularly phase-related."
+          - "Involved in developing the Paddle Quantum and Quantum Leaf platform, which allow users to design, test, and deploy quantum programs on quantum simulators and real quantum computers through cloud services. Developed the variable ansatz module, quantum singular value transformation module, quantum phase processing module and the corresponding tutorials."
+
+      - company: Department of Computer Science, University of Calgary
+        position: Teaching Assistant
+        location: Calgary, Canada
+        start_date: 2019-09
+        end_date: 2021-05
+        highlights:
+          - "DATA 211 - Programming with Data"
+          - "CPSC 217 - Introduction to Computer Science for Multidisciplinary Studies I"
+          - "CPSC 231 - Introduction to Computer Science for Computer Science Majors I"
+          - "CPSC 519/619 - Introduction to Quantum Computation"
