@@ -21,6 +21,7 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
 I am a Ph.D. student at [NUS Centre for Quantum Technologies](https://www.quantumlah.org/) supervised by [Patrick Rebentrost](https://www.quantumlah.org/people/profile/Frank-Patrick). My interests lie in quantum computing and quantum information, with a particular focus on quantum algorithms and quantum learning theory. My research aims to develop quantum algorithms that provide improvements over the classical counterparts. I am also interested in theoretical computer science in general.
 
 I obtained my M.Sc. and B.Sc. in computer science from the University of Calgary, under the supervision of [Peter Høyer](http://pages.cpsc.ucalgary.ca/~hoyer/).
