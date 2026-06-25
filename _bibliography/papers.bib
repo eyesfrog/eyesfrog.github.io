@@ -161,21 +161,22 @@
   abstract = {Unitary transformations formulate the time evolution of quantum states. How to learn a unitary transformation efficiently is a fundamental problem in quantum machine learning. The most natural and leading strategy is to train a quantum machine learning model based on a quantum dataset. Although the presence of more training data results in better models, using too much data reduces the efficiency of training. In this work, we solve the problem on the minimum size of sufficient quantum datasets for learning a unitary transformation exactly, which reveals the power and limitation of quantum data. First, we prove that the minimum size of a dataset with pure states is 2n for learning an n-qubit unitary transformation. To fully explore the capability of quantum data, we introduce a practical quantum dataset consisting of n+1 elementary tensor product states that are sufficient for exact training. The main idea is to simplify the structure utilizing decoupling, which leads to an exponential improvement in the size of the datasets with pure states. Furthermore, we show that the size of the quantum dataset with mixed states can be reduced to a constant, which yields an optimal quantum dataset for learning a unitary. We showcase the applications of our results in oracle compiling and Hamiltonian simulation. Notably, to accurately simulate a three-qubit one-dimensional nearest-neighbor Heisenberg model, our circuit only uses 96 elementary quantum gates, which is significantly less than 4080 gates in the circuit constructed by the Trotter-Suzuki product formula.}
 }
 
-@misc{YCJ+23,
-  title = {Provable {{Advantage}} of {{Parameterized Quantum Circuit}} in {{Function Approximation}}},
+@inproceedings{YCJ+24,
+  title = {Non-Asymptotic {{Approximation Error Bounds}} of {{Parameterized Quantum Circuits}}},
   author = {Yu, Zhan and Chen, Qiuhao and Jiao, Yuling and Li, Yinan and Lu, Xiliang and Wang, Xin and Yang, Jerry Zhijian},
-  year = {2023},
-  month = oct,
-  number = {arXiv:2310.07528},
+  year = {2024},
+  month = dec,
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {37},
+  publisher = {{Curran Associates, Inc.}},
   eprint = {2310.07528},
   arxiv = {2310.07528},
   primaryclass = {quant-ph},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2310.07528},
-  url = {http://arxiv.org/abs/2310.07528},
+  doi = {10.52202/079017-3143},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/b360fd42ced877429882a2a68b4a4343-Abstract-Conference.html},
   bibtex_show = {true},
   selected = {true},
-  abstract = {Understanding the power of parameterized quantum circuits (PQCs) in accomplishing machine learning tasks is one of the most important questions in quantum machine learning. In this paper, we analyze the expressivity of PQCs through the lens of function approximation. Previously established universal approximation theorems for PQCs are mainly nonconstructive, leading us to the following question: How large do the PQCs need to be to approximate the target function up to a given error? We exhibit explicit constructions of data re-uploading PQCs for approximating continuous and smooth functions and establish quantitative approximation error bounds in terms of the width, the depth and the number of trainable parameters of the PQCs. To achieve this, we utilize techniques from quantum signal processing and linear combinations of unitaries to construct PQCs that implement multivariate polynomials. We implement global and local approximation techniques using Bernstein polynomials and local Taylor expansion and analyze their performances in the quantum setting. We also compare our proposed PQCs to nearly optimal deep neural networks in approximating high-dimensional smooth functions, showing that the ratio between model sizes of PQC and deep neural networks is exponentially small with respect to the input dimension. This suggests a potentially novel avenue for showcasing quantum advantages in quantum machine learning.}
+  abstract = {Parameterized quantum circuits (PQCs) have emerged as a promising approach for quantum neural networks. However, understanding their expressive power in accomplishing machine learning tasks remains a crucial question. This paper investigates the expressivity of PQCs for approximating general multivariate function classes. Unlike previous Universal Approximation Theorems for PQCs, which are either nonconstructive or rely on parameterized classical data processing, we explicitly construct data re-uploading PQCs for approximating multivariate polynomials and smooth functions. We establish the first non-asymptotic approximation error bounds for these functions in terms of the number of qubits, quantum circuit depth, and number of trainable parameters. Notably, we demonstrate that for approximating functions that satisfy specific smoothness criteria, the quantum circuit size and number of trainable parameters of our proposed PQCs can be smaller than those of deep ReLU neural networks. We further validate the approximation capability of PQCs through numerical experiments. Our results provide a theoretical foundation for designing practical PQCs and quantum neural networks for machine learning tasks that can be implemented on near-term quantum devices, paving the way for the advancement of quantum machine learning.}
 }
 
 
