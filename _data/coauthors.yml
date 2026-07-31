@@ -1,34 +1,140 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Co-author websites, used by the bib layout to link author names in publications.
+# Keys are lowercase, accent-stripped last names; firstname lists disambiguate
+# collaborators sharing a last name and should include the forms used in papers.bib.
+#
+# Entries marked `no_link: true` must stay unlinked — do NOT add a url for them
+# in future updates (per site owner's request).
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"agrawal":
+  # Aman Agrawal — no verified homepage found yet
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"arad":
+  - firstname: ["Itai", "I."]
+    url: https://scholar.google.com/citations?user=Q-_dnwsAAAAJ
 
-"Bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"aspuru-guzik":
+  - firstname: ["Alán", "Alan", "A."]
+    url: https://scholar.google.com/citations?user=Ag_6KEgAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"chen":
+  - firstname: ["Zhili"]
+    url: https://scholar.google.com/citations?user=kGByISgAAAAJ
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+  - firstname: ["Kean"]
+    url: https://cccorn.github.io/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+  - firstname: ["Yu-Ao"]
+    url: https://chenyuao-qc.github.io/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+  - firstname: ["Qiuhao"]
+    no_link: true
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+  - firstname: ["Yifei"]
+    url: https://www.quair.group/author/yifei-chen/
+
+"choi":
+  - firstname: ["Matthew", "M."]
+    url: https://matthew9655.github.io/
+
+"du":
+  - firstname: ["Yuxuan", "Y."]
+    url: https://yuxuan-du.github.io/
+
+"guo":
+  - firstname: ["Naixu", "N."]
+    url: https://naixu-guo.github.io/
+
+"hoyer":
+  - firstname: ["Peter", "P."]
+    url: https://pages.cpsc.ucalgary.ca/~hoyer/
+
+"hsieh":
+  - firstname: ["Min-Hsiu", "M.-H."]
+    url: https://www.minhsiu.com/
+
+"jiao":
+  - firstname: ["Yuling", "Y."]
+    url: https://scholar.google.com/citations?user=yFDDsVgAAAAJ
+
+"li":
+  - firstname: ["Yinan"]
+    url: https://www.yinanli.com/
+
+  - firstname: ["Mujin"]
+    no_link: true
+
+"liu":
+  - firstname: ["Yupan"]
+    url: https://yupanliu.info/
+
+  - firstname: ["Zhiping"]
+    url: https://oliver-zpliu.github.io/
+
+"lu":
+  - firstname: ["Xiliang", "X."]
+    url: https://scholar.google.com/citations?user=SIJCkXcAAAAJ
+
+"nakaji":
+  - firstname: ["Kouhei", "K."]
+    url: https://konakaji.github.io/
+
+"qian":
+  - firstname: ["Yang", "Y."]
+    url: https://qqqyang.github.io/
+
+"rebentrost":
+  - firstname: ["Patrick", "P."]
+    url: https://scholar.google.com/citations?user=XWHSBmUAAAAJ
+
+"shen":
+  - firstname: ["Zanqiu", "Z."]
+    url: https://www.quair.group/author/zanqiu-shen/
+
+"tao":
+  - firstname: ["Dacheng", "D."]
+    url: https://scholar.google.com/citations?user=RwlJNLcAAAAJ
+
+"wang":
+  - firstname: ["Qisheng"]
+    url: https://wangqs13.github.io/
+
+  - firstname: ["Xin"]
+    url: https://www.xinwang.info/
+
+  - firstname: ["Xinbiao"]
+    url: https://scholar.google.com/citations?user=YR3JifsAAAAJ
+
+  - firstname: ["Youle"]
+    no_link: true
+
+"yang":
+  - firstname: ["Jerry Zhijian", "Zhijian", "J. Z."]
+    no_link: true
+
+"yao":
+  - firstname: ["Hongshun", "H."]
+    url: https://scholar.google.com/citations?user=Exq6U5YAAAAJ
+
+"zhang":
+  - firstname: ["Zhicheng"]
+    url: https://sites.google.com/view/zhichengzhang
+
+  - firstname: ["Kaining"]
+    url: https://scholar.google.com/citations?user=aYM9S1YAAAAJ
+
+  - firstname: ["Lei"]
+    url: https://scholar.google.com/citations?user=_IgM0zQAAAAJ
+
+"zhao":
+  - firstname: ["Xuanqiang"]
+    url: https://scholar.google.com/citations?user=3hINAb8AAAAJ
+
+  - firstname: ["Benchi"]
+    url: https://scholar.google.com/citations?user=eHZu3PwAAAAJ
+
+"zhu":
+  - firstname: ["Chengkai"]
+    url: https://chengkaizhu.site/
+
+  - firstname: ["Chenghong"]
+    url: https://scholar.google.com/citations?user=LBqnlFYAAAAJ
