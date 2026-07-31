@@ -12,16 +12,16 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 
 <div class="publications">
 
-<h2 class="bibliography">Quantum Machine Learning</h2>
+<h2 class="bibliography">Learning and Characterizing Quantum Systems</h2>
 
-{% bibliography --query @*[topic=qml] --group_by none %}
+{% bibliography --query @*[topic=quantum-learning] --group_by none %}
 
 <h2 class="bibliography">Quantum Algorithms and Complexity</h2>
 
 {% bibliography --query @*[topic=quantum-algorithms] --group_by none %}
 
-<h2 class="bibliography">Learning and Characterizing Quantum Systems</h2>
+<h2 class="bibliography">Quantum Machine Learning</h2>
 
-{% bibliography --query @*[topic=quantum-learning] --group_by none %}
+{% bibliography --query @*[topic=qml] --group_by none %}
 
 </div>
