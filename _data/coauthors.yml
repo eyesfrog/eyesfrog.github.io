@@ -30,7 +30,7 @@
     no_link: true
 
   - firstname: ["Yifei"]
-    url: https://www.quair.group/author/yifei-chen/
+    no_link: true
 
 "choi":
   - firstname: ["Matthew", "M."]
