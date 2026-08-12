@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Validates the starter's demo distill post. A personalized site may have
+# removed it; skip the checks when the source post is absent instead of
+# failing the build.
+distill_post="$(find _posts -maxdepth 1 -name '*-distill.md' -print -quit 2>/dev/null || true)"
+if [ -z "${distill_post}" ]; then
+  echo "distill integration checks skipped: no distill demo post in _posts/"
+  exit 0
+fi
+distill_year="$(basename "${distill_post}" | cut -d- -f1)"
+
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
@@ -20,7 +30,7 @@ YAML
 
 bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
 
-distill_page="${tmp_site}/blog/2021/distill/index.html"
+distill_page="${tmp_site}/blog/${distill_year}/distill/index.html"
 
 if [ ! -f "${distill_page}" ]; then
   echo "distill page was not generated at ${distill_page}" >&2
